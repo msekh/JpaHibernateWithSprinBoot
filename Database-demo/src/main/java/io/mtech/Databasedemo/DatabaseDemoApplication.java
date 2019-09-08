@@ -9,10 +9,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import io.mtech.Databasedemo.dao.PersonJdbcDao;
 import io.mtech.Databasedemo.entity.Person;
+import io.mtech.Databasedemo.jdbc.PersonJdbcDao;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class DatabaseDemoApplication implements CommandLineRunner {
 
 	private static Logger logger = LoggerFactory.getLogger(DatabaseDemoApplication.class);

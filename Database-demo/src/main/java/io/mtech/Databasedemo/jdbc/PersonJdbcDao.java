@@ -1,4 +1,4 @@
-package io.mtech.Databasedemo.dao;
+package io.mtech.Databasedemo.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
